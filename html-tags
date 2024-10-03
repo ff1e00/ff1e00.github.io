@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML tags</title>
+    <style>
+      * {
+        color: #8b0000;
+        background-color: #faebd7;
+        font-family: Georgia, serif;
+      }
+    </style>
+  </head>
+  <body>
+    
+  </body>
+</html>
