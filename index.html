@@ -19,9 +19,11 @@
       h1 {
         text-align: center;
       }
-      .multicolumn {
-        column-count: 3;
-        column-gap: 30px;
+      @media only screen and (min-width: 800px) {
+        .multicolumn {
+          column-count: 3;
+          column-gap: 30px;
+        }
       }
       .multicolumn div {
         float: left;
