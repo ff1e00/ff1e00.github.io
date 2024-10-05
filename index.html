@@ -13,13 +13,14 @@
         font-family: Georgia, serif;
       }
       body {
-        padding: 50px 20px;
+      padding: 50px 20px;
       }
       h1 {
         text-align: center;
       }
       @media only screen and (min-width: 800px) {
         .multicolumn {
+          width: 100%;
           column-count: 3;
           column-gap: 30px;
         }
@@ -27,8 +28,7 @@
       .multicolumn div {
         break-inside: avoid;
         padding: 5px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         width: 100%;
         border-style: ridge;
         border-width: 1px;
