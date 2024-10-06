@@ -27,15 +27,18 @@
       .multicolumn {
         margin: auto;
       }
-      .multicolumn div, a {
+      .multicolumn div {
         break-inside: avoid;
         padding: 10px;
         margin: 10px auto;
         width: 90%;
         background-color: #ffc1b3;
       }
-      .multicolumn div, a:hover {
-        background-color: #fe8a7f;
+      .multicolumn div * {
+        background-color: #ffc1b3;
+      }
+      a {
+        text-decoration: none;
       }
     </style>
   </head>
@@ -43,8 +46,10 @@
     <h1>Danh sách website</h1>
     <div class="multicolumn">
       <a href="html-tags">
-        <h2>Website</h2>
-        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+        <div>
+          <h2>Website</h2>
+          Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+        </div>
       </a>
       <div>Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</div>
       <div>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
